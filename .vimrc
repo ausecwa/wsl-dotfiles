@@ -1,0 +1,18 @@
+" general
+set encoding=utf8
+set number
+set shiftwidth=4
+set tabstop=4
+
+" search
+set ignorecase
+set incsearch
+set smartcase
+set hlsearch
+
+" status line
+set laststatus=2
+set statusline=\ %F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
+
+" regex
+set magic
