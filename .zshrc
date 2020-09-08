@@ -59,6 +59,9 @@ export EDITOR='vim'
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+# GPG
+export GPG_TTY="$TTY"
+
 # Command completion
 autoload -Uz compinit && compinit -i
 autoload -Uz bashcompinit && bashcompinit
