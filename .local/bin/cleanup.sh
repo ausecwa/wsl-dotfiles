@@ -13,4 +13,6 @@ echo
 sudo apt-get autoclean
 sudo apt-get clean
 echo
+echo "[trim]"
+sudo fstrim -av
 echo 'OK'
