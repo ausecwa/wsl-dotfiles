@@ -4,6 +4,8 @@ set -e
 echo "[clean]"
 sudo rm -rf /tmp/*
 rm -rf ~/.cache/*
+rm -rf ~/.local/share/virtualenv
+rm -rf ~/.vscode-server/data/CachedExtensionVSIXs
 rm -f ~/.*_history
 rm -f ~/.viminfo
 echo
