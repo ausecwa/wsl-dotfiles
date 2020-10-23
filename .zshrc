@@ -2,14 +2,14 @@
 export PATH="$HOME/.local/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/wsl/.oh-my-zsh"
+export ZSH="/home/chris/.oh-my-zsh"
 
 # Set name of the theme to load
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Load gitstatus binary
-[[ -d ~/.cache/gitstatus ]] || ln -s ~/.local/bin/gitstatus ~/.cache
+[[ -d ~/.cache/gitstatus ]] || ln -s ~/.local/opt/gitstatus ~/.cache
 
 # Powerlevel10k prompt. To customize, run `p10k configure` or edit ~/.p10k.zsh.
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
@@ -63,13 +63,14 @@ export EDITOR='vim'
 export GPG_TTY="$TTY"
 
 # Command completion
-autoload -Uz compinit && compinit -i
-autoload -Uz bashcompinit && bashcompinit
-complete -C aws_completer aws
+#autoload -Uz compinit && compinit -i
+#autoload -Uz bashcompinit && bashcompinit
+#complete -C aws_completer aws
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 alias qr='qrencode -t utf8'
 alias usevenv='source venv/bin/activate'
+alias youtube-audio-dl='youtube-dl -f bestaudio -x --audio-format mp3 --audio-quality 192K'
 alias docker-start='sudo service docker start'
 alias wslstop='wsl.exe --shutdown'
 

@@ -7,4 +7,7 @@ echo
 echo "[dist-upgrade]"
 sudo apt-get dist-upgrade
 echo
+echo "[zsh]"
+upgrade-zsh.sh
+echo
 cleanup.sh
