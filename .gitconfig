@@ -5,7 +5,7 @@
 	email = email@localhost
 [includeIf "gitdir:/home/wsl/github/"]
 	path = /home/wsl/github/.gitconfig
-[credential]
-	helper = store
 [pull]
 	rebase = false
+[credential]
+	helper = store
