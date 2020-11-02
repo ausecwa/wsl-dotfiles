@@ -3,8 +3,8 @@
 [user]
 	name = Chris
 	email = email@localhost
-[includeIf "gitdir:/home/chris/github/"]
-	path = /home/chris/github/.gitconfig
+[includeIf "gitdir:/home/wsl/github/"]
+	path = /home/wsl/github/.gitconfig
 [pull]
 	rebase = false
 [credential]
