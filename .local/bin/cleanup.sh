@@ -7,6 +7,7 @@ rm -rf ~/.cache/*
 rm -rf ~/.local/share/virtualenv
 rm -rf ~/.pylint.d
 rm -rf ~/.vscode-server/data/CachedExtensionVSIXs
+rm -rf ~/.vscode-server/data/logs
 rm -f ~/.*_history
 rm -f ~/.viminfo
 echo

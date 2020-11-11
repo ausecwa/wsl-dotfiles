@@ -68,10 +68,10 @@ export GPG_TTY="$TTY"
 #complete -C aws_completer aws
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
+alias docker-start='sudo service docker start'
+alias gitlog="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
 alias qr='qrencode -t utf8'
 alias usevenv='source venv/bin/activate'
-alias youtube-audio-dl='youtube-dl -f bestaudio -x --audio-format mp3 --audio-quality 192K'
-alias docker-start='sudo service docker start'
 alias wslstop='wsl.exe --shutdown'
 
 # WSL X server
