@@ -56,7 +56,7 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git-auto-fetch)
+plugins=(git-auto-fetch gh)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -70,7 +70,7 @@ export EDITOR='vim'
 export GPG_TTY="$TTY"
 
 # Command completion
-#autoload -Uz compinit && compinit -i
+autoload -Uz compinit && compinit -i
 #autoload -Uz bashcompinit && bashcompinit
 #complete -C aws_completer aws
 
