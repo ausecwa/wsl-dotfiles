@@ -1,6 +1,8 @@
 # wsl-dotfiles
 
-Dotfiles for my [Ubuntu on WSL 2](https://ubuntu.com/wsl) installation.
+Dotfiles for my [Arch Linux](https://www.archlinux.org/) installation on WSL 2.
+
+Note: Arch Linux is **not offically supported on WSL 2**.   
 
 ## Software used
 
