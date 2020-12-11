@@ -7,6 +7,7 @@ Note: Arch Linux is **not offically supported on WSL 2**.
 ## Software used
 
 - [Git](https://git-scm.com)
+- [GitHub CLI](https://github.com/cli/cli)
 - [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 - [Vim](https://www.vim.org)
