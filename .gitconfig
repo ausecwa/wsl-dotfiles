@@ -7,5 +7,5 @@
 	path = /home/wsl/github/.gitconfig
 [pull]
 	rebase = false
-[credential]
-	helper = store
+[credential "https://github.com"]
+	helper = !gh auth git-credential
