@@ -11,7 +11,8 @@ Note: Arch Linux is **not offically supported on WSL 2**.
 - [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh)
 - [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
 - [Vim](https://www.vim.org)
-- [ZSH](http://zsh.sourceforge.net/)
+- [Yarn](https://yarnpkg.com)
+- [ZSH](http://zsh.sourceforge.net)
 
 ## Setup
 
@@ -40,8 +41,6 @@ yay --aur -S `cat packages_aur.txt`
 
 # Set up Github CLI
 gh auth login
-mkdir "$ZSH_CUSTOM/plugins/gh"
-gh completion -s zsh > "$ZSH_CUSTOM/plugins/gh/_gh"
 
 # Configure WSL
 cat > /tmp/wsl.conf <<EOF
