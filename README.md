@@ -19,15 +19,12 @@ Note: Arch Linux is **not offically supported on WSL 2**.
 - Create a non-root user with sudo privileges, and switch to that user
 - Clone this repository
 - Symlink dotfiles in the repository to the appropriate location
-- Run the following commands
+- Install relavent packages, and run the following commands
 
 ```bash
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "$ZSH_CUSTOM/themes/powerlevel10k"
-
-# Install packages from repo
-sudo pacman -Sy --needed `cat packages.txt`
 
 # Install yay
 git clone --depth 1 https://aur.archlinux.org/yay-bin.git
@@ -35,9 +32,6 @@ cd yay-bin
 makepkg -sir
 cd ..
 rm -r yay-bin
-
-# Install packages from AUR
-yay --aur -S `cat packages_aur.txt`
 
 # Set up Github CLI
 gh auth login
