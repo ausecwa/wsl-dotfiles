@@ -16,11 +16,6 @@ Note: Arch Linux is **not offically supported on WSL 2**.
 
 ## Setup
 
-- Create a non-root user with sudo privileges, and switch to that user
-- Clone this repository
-- Symlink dotfiles in the repository to the appropriate location
-- Install relavent packages, and run the following commands
-
 ```bash
 # Set up repo
 git clone --bare https://github.com/chrisx8/wsl-dotfiles.git ~/.dotfiles
