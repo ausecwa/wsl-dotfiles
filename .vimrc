@@ -1,8 +1,13 @@
+" This line should not be removed as it ensures that various options are
+" properly set to work with the Vim-related packages.
+runtime! archlinux.vim
+
 " general
 set encoding=utf8
 set number
 set shiftwidth=4
 set tabstop=4
+syntax on
 
 " search
 set ignorecase
