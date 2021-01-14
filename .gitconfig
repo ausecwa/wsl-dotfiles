@@ -1,11 +1,13 @@
 [core]
 	autocrlf = input
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
 [user]
 	name = Chris
 	email = email@localhost
-[includeIf "gitdir:/home/wsl/github/"]
-	path = /home/wsl/github/.gitconfig
-[pull]
-	rebase = false
 [credential "https://github.com"]
 	helper = !gh auth git-credential
+[includeIf "gitdir:/home/wsl/github/"]
+	path = /home/wsl/github/.gitconfig
