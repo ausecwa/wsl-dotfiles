@@ -63,9 +63,6 @@ source $ZSH/oh-my-zsh.sh
 # Preferred editor
 export EDITOR='vim'
 
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
 # GPG
 export GPG_TTY="$TTY"
 
