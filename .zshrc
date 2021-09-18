@@ -9,7 +9,7 @@ fi
 export PATH="$HOME/.local/bin:$HOME/.yarn/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/wsl/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
@@ -76,7 +76,6 @@ alias dot="git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias gitlog="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)'"
 alias qr='qrencode -t utf8'
 alias usevenv='source venv/bin/activate'
-alias zshupdate='omz update && git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull'
 alias wslstop='wsl.exe --shutdown'
 
 # WSL X server

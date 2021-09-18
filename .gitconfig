@@ -1,5 +1,7 @@
 [core]
 	autocrlf = input
+[credential]
+	helper = store
 [init]
 	defaultBranch = main
 [pull]
@@ -9,5 +11,5 @@
 	email = email@localhost
 [credential "https://github.com"]
 	helper = !gh auth git-credential
-[includeIf "gitdir:/home/wsl/github/"]
-	path = /home/wsl/github/.gitconfig
+[includeIf "gitdir:/home/chris/github/"]
+	path = /home/chris/github/.gitconfig
